@@ -1,0 +1,16 @@
+# Environment variables (token & credentials)
+.env
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local testing files (jika tidak ingin di-upload)
+test_influx.py
+test_influx_sf300.py
